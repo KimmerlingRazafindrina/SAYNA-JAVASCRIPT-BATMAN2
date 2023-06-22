@@ -49,7 +49,14 @@
            </div> 
            <div>
             <img class="arrow" src="assets/Logos/flèche_down_header.png">
-            </div>         
+            </div>   
+            <!-- Debut de la check box -->
+            <div class="popupbox" id="popupbox">
+                <div class="inside">
+                    <h1>Message Recu!</h1>
+                </div>
+            </div>
+            <!-- Fin de la check box -->
     </section>
         <!-- the second section batman au cinema -->
         <section id="batman-cinema">
@@ -211,9 +218,10 @@
         <section id="contact">
             <div class="form">
                 <h1>PRENONS CONTACT</h1> <!--FORMULAIRE-->
-                <form action="">
+                <form action="" id="myForm">
                     <label class="titre" for="email">ADDRESS EMAIL</label> <br>
-                    <input type="Address email"name="email" placeholder="email"> <br>
+                    <input type="Address email"name="email" placeholder="email" id="email"> <br>
+                    <span id="invalid"></span>
                     <label class="titre" for="Newsletter">NEWSLETTER</label> <br> 
                     <label for="">En cochant cette case vous acceptez de recevoir l’actualité concernant les aventures de
                         Batman :</label> <br>
@@ -290,5 +298,9 @@
             
     </footer>
 
+  <!--Relier avec Java Script-->
+<script src="./assets/js/validator.js">
+
+</script>
 </body>
 </html>
