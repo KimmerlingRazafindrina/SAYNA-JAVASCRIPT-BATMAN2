@@ -72,12 +72,11 @@ nav ul a:hover{
     filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
 }
 /*Design of header hero */
-#hero {
+#hero{
     background-image: url(../Illustrations/Bathome1.png);
     height: 800px;
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: #19587D;
     background-size: cover;
     text-align: center;
 }

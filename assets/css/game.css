@@ -1,0 +1,145 @@
+@import url(font url);
+@font-face {
+    font-family: 'rajdhani' ;
+    src: url();
+}
+:root{ 
+    --yellow-color: #FFFF00;
+    --yellow-light: #F8F184;
+    --blue-color: #19587D;
+    --white-color: #fffffffb;
+    --gradient-white: #eddebf44;
+    --gradient-red: #89000936;
+    --black-color: #000;
+}
+*{ margin: 10px;
+padding:0 ;
+box-sizing: border-box;
+}
+h1 { 
+    font-family: 'rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+    text-align: left;
+}
+button {
+    font-family: 'rajdhani' ;
+    font-size: 20px;
+    font-weight: 400;
+}
+.container{ 
+    width: 80%;
+    margin: 0 auto;
+}
+body{ 
+    background-color: black;
+    color: white;
+    font-family: 'Space-Grotesk';
+    font-weight: 300;
+}
+.up-bar{
+    border-top: #727272 2px solid;
+   position: relative;
+   top: 132px;
+   width: 77%;
+   left: 102px;
+}
+.left-bar{
+    border-left: #727272 2px solid;
+    position: absolute;
+    
+}
+/*Design of navigation */
+nav{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;    
+}
+ul{
+    list-style: none;
+}
+nav ul a{
+    color: var(--white-color);
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'rajdhani';
+}
+
+nav ul a:hover{
+    color: var(--yellow-color);    
+}
+.logo:hover{ 
+    filter: invert(4%) sepia(100%) saturate(1680%) hue-rotate(352deg);
+}
+/*Design of header hero */
+#hero_game{
+    background-image: url(../Illustrations2/Batgame_1.png);
+    height: 800px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+}
+
+/*Design of section content */
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.social-network{ 
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+}
+#hero .title{
+    margin: 20px 0;
+}
+.btn{ 
+    text-decoration: none;
+    color: var(--white-color);
+    font-size: 22px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background: linear-gradient(
+        80deg, var(--gradient-white), var(--gradient-red)
+    ) ;
+    box-shadow: var(--black-color) 5px 5px 60px;
+}
+#hero_game .arrow{
+    display: block;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+.scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 100px;
+    top: 200px;
+}
+
+/*Design of section footer */
+footer {
+    margin-top: 200px;
+}
+footer .text-footer {
+    text-align: center;
+}
+footer .social-footer {
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (max-width:700px){
+    body{
+        background-color: #727272;
+    }
+}
