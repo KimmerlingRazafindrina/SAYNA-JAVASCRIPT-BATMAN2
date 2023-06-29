@@ -172,3 +172,45 @@ footer .social-footer {
 .inside h1{
     text-align: center;
 }
+.quiz{
+    text-align: center;
+    margin-right: 100px;
+}
+.quiz_photo{
+    position: relative;
+    margin-left: 10px;
+}
+
+#demarrer{
+  margin-left: 50px;
+  padding: 10px;
+  background-color: #ff5100;
+}
+#message_quiz{
+    padding: 20px;
+    text-align: center;
+}
+.chevalier h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.wrapped {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.questions {
+    .nombreDeQuestions {
+        margin: 20px 0;
+    }
+}
+.card-quizz {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        border: 1px solid white;
+}
+.card-image img { 
+             width: 80%;
+        }   
